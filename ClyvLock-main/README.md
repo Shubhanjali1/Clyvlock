@@ -1,67 +1,74 @@
-# 🔐 ClyvrLock – Full-Stack Password Manager
+🔐 ClyvLock – Modern Full-Stack Password Manager
 
-[ClyvrLock](https://github.com/vanshikaraje/ClyvLock) is a modern, secure, and responsive password manager built with the **MERN stack** – React (with **Vite**), Express.js, and (coming soon) MongoDB – styled using **Tailwind CSS**. It allows users to store, view, update, and delete passwords with ease. Currently, it uses browser `localStorage` for temporary storage, with future plans to integrate MongoDB for persistent cloud-based storage.
+ClyvLock
+ is my own take on a secure and user-friendly password manager, built using the MERN stack (React + Vite, Express.js, MongoDB) and styled with Tailwind CSS.
 
-> 📌 **Note:** Backend is ready. **MongoDB integration will be connected soon** to enable full-stack functionality.
+Right now, it stores passwords safely in the browser’s localStorage, but soon I’ll connect MongoDB for full cloud-based storage and syncing.
 
----
+🚀 Tech Stack
 
-## 🚀 Tech Stack
+Frontend: React + Vite, Tailwind CSS
 
-- **Frontend:** React + Vite, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB with Mongoose *(coming soon)*  
-- **Current Storage:** Browser `localStorage`
+Backend: Node.js + Express.js
 
----
+Database: MongoDB with Mongoose (integration in progress)
 
-## ✨ Features
+Current Storage: Browser localStorage
 
-- ✅ Add, edit, and delete stored passwords  
-- 🔐 Toggle password visibility  
-- 📋 Copy passwords to clipboard  
-- 🔍 Real-time search/filter  
-- 📁 Data stored locally in the browser  
-- 🎨 Fully responsive UI using Tailwind CSS  
-- ⚙️ Express.js backend ready for DB integration  
-- ⚡️ Built with lightning-fast Vite
+✨ Key Features
 
----
+➕ Add, ✏️ edit, ❌ delete passwords
 
-## 📦 Getting Started
+👁 Toggle show/hide password
 
-### 1. Clone the Repository
+📋 One-click copy to clipboard
 
-```bash
-git clone https://github.com/vanshikaraje/ClyvLock.git
-cd ClyvLock
+🔍 Search and filter in real-time
+
+📁 Local browser storage (temporary)
+
+📱 Fully responsive UI
+
+⚡ Powered by Vite + Tailwind for speed and style
+
+🔧 Backend ready for DB connection
+
+⚡ Getting Started
+1. Clone the Repository
+git clone https://github.com/Shubhanjali1/Clyvlock.git
+cd Clyvlock
+
 2. Backend Setup (Express.js)
 cd server
 npm install
-⚠️ MongoDB database connection is coming soon.
-
-Start the backend:
 npm run dev
+
+
+⚠️ MongoDB connection coming soon.
+
 3. Frontend Setup (Vite + React)
-Open another terminal:
-Edit
 cd client
 npm install
 npm run dev
-Then open http://localhost:5173 in your browser.
+
+
+Then visit 👉 http://localhost:5173
+
+🛠 Upcoming Improvements
 
 🌐 MongoDB integration for persistent storage
 
-🔒 Password encryption
+🔒 Secure encryption for stored passwords
 
-📱 Mobile-first improvements
+📱 Mobile-first optimizations
 
 🙌 Contributing
-Contributions are welcome
+
+Pull requests are welcome ✨
 
 👩‍💻 Author
-Vanshika Rajput
 
-GitHub: @vanshikaraje
+Shubhanjali
+GitHub: @Shubhanjali1
 
-Project: ClyvrLock
+Project: ClyvLock
